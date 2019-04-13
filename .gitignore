@@ -4,3 +4,5 @@ DAR.API/bin/
 DAR.API/obj/
 
 \.vs/
+
+DAR\.API/appsettings\.json
