@@ -13998,23 +13998,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jared\\.nuget\\packages\\": {},
+    "C:\\Users\\jared.haddix\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\bearspider\\HEAP.API\\HEAP.API\\HEAP.API.csproj",
+      "projectUniqueName": "C:\\ExternalRepos\\HEAP.API\\HEAP.API\\HEAP.API.csproj",
       "projectName": "HEAP.API",
-      "projectPath": "C:\\bearspider\\HEAP.API\\HEAP.API\\HEAP.API.csproj",
-      "packagesPath": "C:\\Users\\Jared\\.nuget\\packages\\",
-      "outputPath": "C:\\bearspider\\HEAP.API\\HEAP.API\\obj\\",
+      "projectPath": "C:\\ExternalRepos\\HEAP.API\\HEAP.API\\HEAP.API.csproj",
+      "packagesPath": "C:\\Users\\jared.haddix\\.nuget\\packages\\",
+      "outputPath": "C:\\ExternalRepos\\HEAP.API\\HEAP.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jared\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jared.haddix\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -14022,8 +14022,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://ci.appveyor.com/nuget/fluent-ribbon": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {

@@ -1,8 +1,8 @@
 
-DAR.API/bin/
+HEAP.API/bin/
 
-DAR.API/obj/
+HEAP.API/obj/
 
 \.vs/
 
-DAR\.API/appsettings\.json
+HEAP\.API/appsettings\.json
