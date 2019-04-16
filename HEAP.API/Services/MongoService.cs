@@ -25,9 +25,9 @@ namespace HEAP.API.Services
 
         public MongoService(IConfiguration config)
         {
-            var client = new MongoClient(config.GetConnectionString("DarDb"));
-            _db = client.GetDatabase("dardb");
-            _packages = _db.GetCollection<Package>("Packages");
+            var client = new MongoClient(config.GetConnectionString("HeapDB"));
+            _db = client.GetDatabase("heap");
+            _packages = _db.GetCollection<Package>("packages");
             _bucket = new GridFSBucket(_db);
         }
         public void Clean()
