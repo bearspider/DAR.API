@@ -34,7 +34,7 @@ namespace HEAP.API
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "DAR API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "HEAP API", Version = "v1" });
             });
             services.AddScoped<MongoService>();
             services.AddAuthentication("BasicAuthentication")
@@ -64,7 +64,7 @@ namespace HEAP.API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "DAR API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "HEAP API V1");
                 c.RoutePrefix = string.Empty;
             });
             app.UseHttpsRedirection();
