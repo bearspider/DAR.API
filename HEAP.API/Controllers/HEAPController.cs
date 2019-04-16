@@ -17,17 +17,15 @@ using Newtonsoft.Json;
 
 namespace HEAP.API.Controllers
 {
-    [Authorize]
     [Route("api/heap")]
     [ApiController]
-    public class DARController : ControllerBase
+    public class HEAPController : ControllerBase
     {
         private MongoService _mongo;
-        public DARController(MongoService mongoService)
+        public HEAPController(MongoService mongoService)
         {
             _mongo = mongoService;
         }
-
         //GET all packages in the database
         [AllowAnonymous]
         [HttpGet]
@@ -51,7 +49,7 @@ namespace HEAP.API.Controllers
         public async Task<IActionResult> Get(string guid)
         {
             String filename = _mongo.GetFileName(guid);
-            if(String.IsNullOrEmpty(filename))
+            if (String.IsNullOrEmpty(filename))
             {
                 return NotFound();
             }
